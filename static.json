@@ -1,0 +1,21 @@
+{
+  "routes": {
+    "/login/": "/login/login.html",
+    "/sample/": "/sample/sample.html"
+  },
+  
+  "headers": {
+    "/*": {
+      "X-Author": "yaazzik",
+      "Access-Control-Allow-Origin": "*"
+    },
+    "/login/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8" 
+    },
+     "/sample/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain" 
+    }
+  }
+}
